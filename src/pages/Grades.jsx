@@ -63,8 +63,8 @@ export default function Grades() {
     <div className="fade-in">
       <div className="flex flex-wrap items-center justify-between gap-3 mb-5">
         <div>
-          <h1 className="font-display text-2xl font-bold">Manajemen <span className="grad-text">Nilai</span></h1>
-          <p className="text-white/45 text-sm">Tekan Enter pada kolom untuk menyimpan &amp; konfirmasi nilai.</p>
+          <h1 className="font-display text-2xl font-bold">Management <span className="grad-text">Nilai Kurikulum</span></h1>
+          <p className="text-white/45 text-sm">Input nilai siswa berdasarkan kurikulum.</p>
         </div>
         <select value={subjectId} onChange={(e) => setSubjectId(Number(e.target.value))} className="rounded-xl px-3.5 py-2.5 text-sm">
           {subjects.map((s) => <option key={s.id} value={s.id}>{s.nama}</option>)}
