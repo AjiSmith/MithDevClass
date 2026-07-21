@@ -75,8 +75,8 @@ export default function Attendance() {
     <div className="fade-in">
       <div className="flex flex-wrap items-center justify-between gap-3 mb-5">
         <div>
-          <h1 className="font-display text-2xl font-bold">Pengelolaan <span className="grad-text">Absensi Murid</span></h1>
-          <p className="text-white/45 text-sm">Kelola kehadiran siswa.</p>
+          <h1 className="font-display text-2xl font-bold">Management <span className="grad-text">Kehadiran</span></h1>
+          <p className="text-white/45 text-sm">Isi Data Absensi Murid.</p>
         </div>
         <div className="glass rounded-xl p-1 flex gap-1">
           <button onClick={() => setTab('harian')} className={`px-3.5 py-2 rounded-lg text-sm font-medium ${tab === 'harian' ? 'btn-aurora' : 'text-white/55'}`}>
