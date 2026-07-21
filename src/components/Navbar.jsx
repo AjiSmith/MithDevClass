@@ -25,7 +25,7 @@ export function Navbar({ user, onLogout, mobileOpen, setMobileOpen }) {
         <div className="max-w-7xl mx-auto flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-xl btn-aurora flex items-center justify-center">
-              <Icon name="sparkle" size={16} />
+              <Icon name="close" size={16} />
             </div>
             <span className="font-display font-bold tracking-tight">XI-3 Mith.dev</span>
           </div>
