@@ -55,8 +55,8 @@ export default function Funds() {
     <div className="fade-in">
       <div className="flex items-center justify-between mb-5">
         <div>
-          <h1 className="font-display text-2xl font-bold">Kas <span className="grad-text">Kelas</span></h1>
-          <p className="text-white/45 text-sm">Input nominal → auto-save saat kolom kehilangan fokus (onBlur).</p>
+          <h1 className="font-display text-2xl font-bold">Pengelolaan <span className="grad-text">Keuangan Kelas</span></h1>
+          <p className="text-white/45 text-sm">Input nominal uang yang masuk dari siswa.</p>
         </div>
         <div className="glass rounded-xl px-4 py-2.5 text-right">
           <div className="text-white/40 text-[11px]">Total Terkumpul</div>
