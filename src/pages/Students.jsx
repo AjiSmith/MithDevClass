@@ -46,8 +46,8 @@ export default function Students() {
     <div className="fade-in">
       <div className="flex items-center justify-between mb-5">
         <div>
-          <h1 className="font-display text-2xl font-bold">Direktori <span className="grad-text">Siswa</span></h1>
-          <p className="text-white/45 text-sm">User &amp; Student Management — CRUD lengkap untuk Developer.</p>
+          <h1 className="font-display text-2xl font-bold">Management <span className="grad-text">Siswa</span></h1>
+          <p className="text-white/45 text-sm">User Management - CRUD Integrated.</p>
         </div>
         {canEdit && (
           <button onClick={openNew} className="btn-aurora rounded-xl px-4 py-2.5 text-sm font-semibold flex items-center gap-1.5">
