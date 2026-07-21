@@ -39,8 +39,7 @@ export default function Subjects() {
     <div className="fade-in">
       <div className="flex items-center justify-between mb-5">
         <div>
-          <h1 className="font-display text-2xl font-bold">Manajemen <span className="grad-text">Mata Pelajaran</span></h1>
-          <p className="text-white/45 text-sm">Kelola mapel &amp; guru pengampu (khusus Developer).</p>
+          <h1 className="font-display text-2xl font-bold">Management <span className="grad-text">Kurikulum</span></h1>
         </div>
         <button
           onClick={() => { setForm({ nama: '', guru: '' }); setModal({ mode: 'new' }) }}
